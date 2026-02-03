@@ -1,0 +1,12 @@
+# AWS region
+region = "us-east-1"
+
+# EC2 configuration
+instance_name = "terraform-ec2"
+instance_type = "t3.micro"
+
+# Ubuntu 24.04 LTS (matches your manual instance)
+ami_id = "ami-0b6c6ebed2801a5cb"
+
+# Existing EC2 key pair
+key_name = "manual-ec2-key"

@@ -1,0 +1,9 @@
+# SSH private keys
+*.pem
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+terraform.tfvars
+
